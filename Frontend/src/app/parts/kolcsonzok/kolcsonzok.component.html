@@ -1,0 +1,15 @@
+<div class="myContainer">
+    <h1 class="myTitle">Library</h1>
+    <div class="container my-5" id="kolcsonzokContainer">
+        <div *ngFor="let k of kolcsonzok" class="row border-bottom border-warning pb-1">
+            <div class="col fw-bold fs-1">{{k.nev}}</div>
+            <div class="col fs-3">{{k.szulIdo}}</div>
+            <div class="col pt-3">
+                <a class="btn btn-success" data-bs-toggle="modal" data-bs-target="#kolcsModal" (click)="setKivalasztott(k.id)">  
+                    Kölcsönzések
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<app-kolcsonzesek [ariaDisabled]="!getKivalasztott()" [data]="getKivalasztott()"></app-kolcsonzesek>

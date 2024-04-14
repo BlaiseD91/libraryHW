@@ -1,0 +1,14 @@
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\bin\Debug\net6.0\ClassLibrary.runtimeconfig.json
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+E:\School\SZOFT\school\combinedHomeWork\v3\API\ClassLibrary\obj\Debug\net6.0\ClassLibrary.genruntimeconfig.cache

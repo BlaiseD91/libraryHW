@@ -1,0 +1,53 @@
+.myContainer {
+    min-width: 400px;
+    background-image: url(../../../assets/img/Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.myTitle {
+    background: rgba(161, 211, 54, 0.6);
+    color: white;
+    font-size: 20rem;
+    text-align: center;
+}
+.imgContainer {
+    border: 10px solid #a1d336;
+    width: 50vw;
+    border-radius: 3rem;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img {
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+}
+img:nth-child(2) {
+    transform: rotate(180deg);
+}
+@media (max-width: 768px) {
+    .myTitle {
+      font-size: 10rem;
+      margin-top: 2vh;
+    }
+    .imgContainer {
+        width: 100%;
+        margin-top: 5vh;
+        border: none;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    img {
+        width: 80%;
+        height: 80%;
+        margin: 5%;
+    }
+    img:nth-child(2) {
+        transform: rotate(0deg);
+    }
+
+  }

@@ -1,0 +1,52 @@
+<div class="modal" id="kolcsModal" tabindex="-1" aria-labelledby="kolcsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" id="modalContent">
+            <div class="modal-header">
+                <h1 class="fw-bold">
+                    Nyilvántartás
+                </h1>
+                <button type="button" class="btn btn-success px-2" data-bs-dismiss="modal" aria-label="Close">Vissza</button>
+            </div>
+            <div class="modal-body">
+                <div class="row border-bottom border-dark border-2 py-3">
+                    <div class="mb-3 col-4">
+                        <label for="iro" class="form-label">Író:</label>
+                        <input [(ngModel)]="newKolcsonzes.iro" type="text" class="form-control" id="iro">
+                    </div>
+                    <div class="mb-3 col-4">
+                        <label for="cim" class="form-label">Cím:</label>
+                        <input [(ngModel)]="newKolcsonzes.cim" type="text" class="form-control" id="cim">
+                    </div>
+                    <div class="mb-3 col-2">
+                        <label for="mufaj" class="form-label">Műfaj:</label>
+                        <input [(ngModel)]="newKolcsonzes.mufaj" type="text" class="form-control" id="mufaj">
+                    </div>
+                    <div class="mb-3 col-2">
+                        <button class="btn btn-info" (click)="upload()">Rögzít</button>
+                    </div>
+
+                </div>
+                <div class="row text-center">
+                    <div class="col-1">ID</div>
+                    <div class="col-3"><h6>Író</h6></div>
+                    <div class="col-3"><h6>Cím</h6></div>
+                    <div class="col-1"><h6>Műfaj</h6></div>
+                </div>
+                <div *ngFor="let kol of kolcsonzesek|fkfilter:data" class="row py-2 align-items-center border-bottom">
+                    <div class="row">
+                            <input type="number" class="col-1" [(ngModel)]="kol.id" disabled>
+                            <input type="text" class="col-3" [(ngModel)]="kol.iro">
+                            <input type="text" class="col-3" [(ngModel)]="kol.cim">
+                            <input type="text" class="col-1" [(ngModel)]="kol.mufaj">
+                            <div class="col-4">
+                                <button (click)="deleteKolcsonzes(kol.id)" type="button" class="btn btn-success mx-1 my-1">Visszahozva</button>
+                                <button (click)="modifyKolcsonzes(kol)" type="button" class="btn btn-warning mx-1 my-1">Módosítás</button>
+                            </div>
+                    </div>
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Vissza</button>
+            </div>  
+        </div>
+    </div>
+</div>
